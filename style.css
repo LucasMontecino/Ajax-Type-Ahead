@@ -1,6 +1,10 @@
 html {
     box-sizing: border-box;
-    background: #ffc600;
+    background: url(https://images.pexels.com/photos/2678301/pexels-photo-2678301.jpeg?auto=compress&cs=tinysrgb&w=3385&h=5078&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     font-weight: 200;
@@ -41,7 +45,6 @@ input.search {
     margin: 0;
     padding: 0;
     position: relative;
-    /*perspective: 20px;*/
 }
 
 .suggestions li {
